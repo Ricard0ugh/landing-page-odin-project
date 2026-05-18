@@ -25,10 +25,12 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: var(--dk-bg);
-    padding: 2rem 16rem;
+    padding: 2rem 7rem;
     width: 100%;
+    
+    
 }
 
 header h1 {
@@ -52,4 +54,46 @@ header a {
     font-weight: 300;
 }
 
+.hero {
+    background-color: var(--dk-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.hero h2 {
+    font-size: 48px;
+    font-weight: 900;
+    max-width: 15ch;
+    color: var(--hero-color);
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+.hero p {
+    font-size: 18px;
+    color: var(--qte-bg);
+    max-width: 35ch;
+    margin-bottom: 1.5rem;
+}
+
+.hero .btn {
+    display: inline-block;
+    background-color: var(--btn-color);
+    padding: 1rem 3rem;
+    border-radius: 18px;
+}
+
+.hero .btn a {
+    color: white;
+    text-decoration: none;
+
+}
+.hero img {
+    width: 560px;
+    height: 300px;
+    border-radius: 12px;
+}
 
