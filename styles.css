@@ -114,13 +114,13 @@ header a {
 .experience .experience-grid {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 3rem;
     margin-bottom: 5rem;
 }
 
 .experience .experience-grid div {
     border: 1px solid var(--btn-color);
-    width: 200px;
+    width: 240px;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -142,5 +142,27 @@ header a {
 
 .quote {
     background-color: var(--qte-bg);
-    padding: 2rem;
+    padding: 8rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote #quote-txt {
+    font-size: 36px;
+    color: rgb(73, 73, 73);
+    max-width: 49ch;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote #user {
+    justify-content: center;
+    color: red;
+    margin-left: 38rem;
+    font-size: 30px;
+    color: var(--dk-bg);
+    font-weight: 600;
+
 }
