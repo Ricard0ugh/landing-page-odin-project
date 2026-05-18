@@ -91,9 +91,56 @@ header a {
     text-decoration: none;
 
 }
+
 .hero img {
     width: 560px;
     height: 300px;
     border-radius: 12px;
 }
 
+.experience {
+    
+    padding: 2rem 5rem;
+}
+
+.experience h3 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--dk-bg);
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.experience .experience-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+
+.experience .experience-grid div {
+    border: 1px solid var(--btn-color);
+    width: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.experience .experience-grid img {
+    width: 100%;
+    
+}
+
+.experience .experience-grid .box-titles {
+    padding: 1rem;
+    text-align: center;
+}
+
+.experience .experience-grid .box-desc {
+    padding: 1rem;
+    text-align: center;
+}
+
+.quote {
+    background-color: var(--qte-bg);
+    padding: 2rem;
+}
