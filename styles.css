@@ -166,3 +166,48 @@ header a {
     font-weight: 600;
 
 }
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 8rem;
+}
+
+.contact .contact-box {
+    background-color: var(--btn-color);
+    padding: 2rem 5rem;
+    display: flex;
+    border-radius: 15px;
+    gap: 15rem;
+    align-items: center;
+}
+
+.contact-title {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.contact-desc {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.contact .btn {
+    display: inline-block;
+    background-color: var(--btn-color);
+    padding: 1rem 1rem;
+    border-radius: 18px;
+    border: 1px solid white;
+}
+
+.contact .btn a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
